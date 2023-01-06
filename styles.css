@@ -20,7 +20,6 @@ html {
 }
 
 body {
-  background-color: #f7f7f7;
   color: #212121;
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
@@ -77,4 +76,33 @@ header {
 .btn-primary {
   background-color: orangered;
   color: #f7f7f7;
+}
+
+.failures-section {
+  padding: 10vw 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+}
+
+.failures-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.failures-right h2 {
+  font-size: 4.8rem;
+  width: 75%;
+}
+
+.failures-right p {
+  width: 75%;
+}
+
+.failures-right ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
