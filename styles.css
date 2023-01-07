@@ -1,3 +1,4 @@
+/* google font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -30,6 +31,7 @@ body {
   margin: 0 auto;
 }
 
+/* header styles */
 header {
   width: 100vw;
   height: 100vh;
@@ -78,6 +80,7 @@ header {
   color: #f7f7f7;
 }
 
+/* failures styles */
 .failures-section {
   padding: 5vw 0;
   display: flex;
@@ -107,6 +110,64 @@ header {
   gap: 1rem;
 }
 
+/* download styles */
+.download {
+  padding: 5vw 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.download-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.download-left h2 {
+  font-size: 4.8rem;
+}
+
+.download-left h2 span {
+  color: #ff4500;
+}
+
+.devices {
+  display: flex;
+  gap: 5rem;
+}
+
+.device {
+  cursor: pointer;
+  background-color: rgba(255, 68, 0, 0.1);
+  padding: 2rem;
+  height: 10rem;
+  width: 14rem;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 68, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.device i {
+  font-size: 2.8rem;
+}
+
+.device:hover {
+  background-color: #ff4500;
+  color: #f7f7f7;
+}
+
+.download-left .btn {
+  margin-top: 2rem;
+}
+
+/* plans styles */
 .plans-section {
   padding: 5vw 0;
 }
@@ -138,6 +199,7 @@ header {
   font-size: 2.6rem;
 }
 
+/* cta styles */
 .cta {
   margin: 5rem 20vw;
   padding: 5rem;
@@ -161,6 +223,7 @@ header {
   margin-bottom: 2rem;
 }
 
+/* footer styles */
 footer {
   background-color: #212121;
   color: #f7f7f7;
