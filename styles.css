@@ -137,3 +137,26 @@ header {
 .plan h3 {
   font-size: 2.6rem;
 }
+
+.cta {
+  margin: 5rem 20vw;
+  padding: 5rem;
+  border-radius: 10px;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 68, 0, 0.65),
+      transparent
+    ),
+    url(./images/watch.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta h2 {
+  font-size: 3.2rem;
+  color: #f7f7f7;
+  width: 50%;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
